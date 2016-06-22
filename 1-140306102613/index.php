@@ -1,0 +1,10 @@
+<?php
+//确定项目名称ȷ����Ŀ���
+define('APP_NAME','Project');
+//确定项目路径ȷ����Ŀ·��
+define('APP_PATH','./Project/');
+//开启调试模式�������ģʽ
+define('APP_DEBUG',true);
+//引入核心文件��������ļ�
+require_once('./ThinkPHP/ThinkPHP.php');
+?>
